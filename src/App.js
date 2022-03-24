@@ -15,6 +15,7 @@ function Hooks(){
    <input value={input} onChange={e=>setInput(e.target.value)}/>&nbsp;&nbsp;&nbsp;
    <button onClick={(e)=>handliClick()}>Add Todo <b>:-</b></button>
    <ol style={{color:'red'}}>{mail.map((e)=><li>{e}</li>)}</ol>
+   <h1>{mail}</h1>
    <h3>{mail}</h3>
     </>
   );
